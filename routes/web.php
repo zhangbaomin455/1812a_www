@@ -12,6 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+   echo '<pre>';print_r($_SERVER);echo '</pre>';
 });
 Route::get('/user/add','UserController@add');
+Route::get('/test/redis','UserController@redisTest');
