@@ -42,6 +42,22 @@ return [
             'prefix' => '',
             'foreign_key_constraints' => env('DB_FOREIGN_KEYS', true),
         ],
+        'mysql' => [
+            'read' => [
+                'host' => '192.168.43.134'
+            ],
+            'write' => [
+                'host' => '196.168.43.135'
+            ],
+            'driver'    => 'mysql',
+            'database'  => 'database',
+            'username'  => 'root',
+            'password'  => '',
+            'charset'   => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+            'prefix'    => '',
+        ],
+
 
         'mysql' => [
             'driver' => 'mysql',
